@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kcvs>
+    <!-- name -->
+    <name>
+        <connection-info id="VEHICLE">
+            <rule>2COHT01_V</rule>
+        </connection-info>
+        <connection-info id="MGV">
+            <rule>MFOT01_M</rule>
+        </connection-info>
+        <connection-info id="STK1">
+            <rule>2CSTK01_P</rule>
+        </connection-info>
+        <connection-info id="STK2">
+            <rule>2CSTK02_P</rule>
+        </connection-info>
+        <connection-info id="STK3">
+            <rule>2CSTK03_P</rule>
+        </connection-info>
+        <connection-info id="STK4">
+            <rule>2CSTK04_P</rule>
+        </connection-info>
+        <connection-info id="STK5">
+            <rule>2CSTK05_P</rule>
+        </connection-info>
+        <connection-info id="STK6">
+            <rule>2CSTK06_P</rule>
+        </connection-info>
+        <connection-info id="INX">
+            <rule>2CEE01_P</rule>
+        </connection-info>
+        <connection-info id="DM">
+            <rule>2CSTK09_P</rule>
+        </connection-info>
+        <connection-info id="VIRTUAL">
+            <rule>VIRTUAL_P</rule>
+        </connection-info>
+    </name>
+
+    <!-- kcvs-port-info -->
+    <kcvs-port-info>
+        <connection-info id="1">
+            <type>INX</type>
+            <loc>113517</loc>
+            <linkport>?</linkport>
+            <define>2CEE01_P01</define>
+        </connection-info>
+        <connection-info id="2">
+            <type>INX</type>
+            <loc>115146</loc>
+            <link>?</link>
+            <define>2CEE01_P02</define>
+        </connection-info>
+        <connection-info id="3">
+            <type>INX</type>
+            <loc>116769</loc>
+            <link>?</link>
+            <define>2CEE01_P03</define>
+        </connection-info>
+        <connection-info id="4">
+            <type>INX</type>
+            <loc>137604</loc>
+            <link>?</link>
+            <define>2CEE01_P04</define>
+        </connection-info>
+        <connection-info id="5">
+            <type>INX</type>
+            <loc>139227</loc>
+            <link>?</link>
+            <define>2CEE01_P05</define>
+        </connection-info>
+        <connection-info id="6">
+            <type>INX</type>
+            <loc>140855</loc>
+            <link>?</link>
+            <define>2CEE01_P06</define>
+        </connection-info>
+        <connection-info id="9">
+            <type>VIRTUAL</type>
+            <loc>201000</loc>
+            <link>?</link>
+            <define>VIRTUAL_P01</define>
+        </connection-info>
+        <connection-info id="10">
+            <type>VIRTUAL</type>
+            <loc>213000</loc>
+            <link>?</link>
+            <define>VIRTUAL_P02</define>
+        </connection-info>
+        <connection-info id="11">
+            <type>VIRTUAL</type>
+            <loc>222000</loc>
+            <link>?</link>
+            <define>VIRTUAL_P03</define>
+        </connection-info>
+        <connection-info id="12">
+            <type>VIRTUAL</type>
+            <loc>229000</loc>
+            <link>?</link>
+            <define>VIRTUAL_P04</define>
+        </connection-info>
+        <connection-info id="13">
+            <type>STK2</type>
+            <loc>255434</loc>
+            <link>?</link>
+            <define>2CSTK02_P02</define>
+        </connection-info>
+        <connection-info id="14">
+            <type>STK2</type>
+            <loc>260278</loc>
+            <link>?</link>
+            <define>2CSTK02_P01</define>
+        </connection-info>
+        <connection-info id="15">
+            <type>STK3</type>
+            <loc>268208</loc>
+            <link>?</link>
+            <define>2CSTK03_P02</define>
+        </connection-info>
+        <connection-info id="16">
+            <type>STK3</type>
+            <loc>273284</loc>
+            <link>?</link>
+            <define>2CSTK03_P01</define>
+        </connection-info>
+        <connection-info id="17">
+            <type>VIRTUAL</type>
+            <loc>326000</loc>
+            <link>?</link>
+            <define>VIRTUAL_P05</define>
+        </connection-info>
+        <connection-info id="18">
+            <type>VIRTUAL</type>
+            <loc>334000</loc>
+            <link>?</link>
+            <define>VIRTUAL_P06</define>
+        </connection-info>
+        <connection-info id="19">
+            <type>VIRTUAL</type>
+            <loc>342000</loc>
+            <link>?</link>
+            <define>VIRTUAL_P07</define>
+        </connection-info>
+        <connection-info id="20">
+            <type>VIRTUAL</type>
+            <loc>350000</loc>
+            <link>?</link>
+            <define>VIRTUAL_P08</define>
+        </connection-info>
+        <connection-info id="21">
+            <type>STK6</type>
+            <loc>364738</loc>
+            <link>?</link>
+            <define>2CSTK06_P02</define>
+        </connection-info>
+        <connection-info id="22">
+            <type>STK6</type>
+            <loc>367648</loc>
+            <link>?</link>
+            <define>2CSTK06_P01</define>
+        </connection-info>
+        <connection-info id="96">
+            <type>STK6</type>
+            <loc>400800</loc>
+            <link>?</link>
+            <define>2CMTL_P01</define>
+        </connection-info>
+    </kcvs-port-info>
+
+    <!-- veh -->
+    <kcvs-veh>
+        <connection-info id="1">
+            <ip-address>192.168.10.5</ip-address>
+            <port-number>1281</port-number>
+            <start-number>0</start-number>
+            <end-number>0</end-number>
+        </connection-info>
+        <connection-info id="2">
+            <ip-address>192.168.10.5</ip-address>
+            <port-number>1282</port-number>
+            <start-number>0</start-number>
+            <end-number>0</end-number>
+        </connection-info>
+        <connection-info id="3">
+            <ip-address>192.168.10.5</ip-address>
+            <port-number>1283</port-number>
+            <start-number>0</start-number>
+            <end-number>0</end-number>
+        </connection-info>
+        <connection-info id="4">
+            <ip-address>192.168.10.5</ip-address>
+            <port-number>1284</port-number>
+            <start-number>0</start-number>
+            <end-number>0</end-number>
+        </connection-info>
+        <connection-info id="5">
+            <ip-address>192.168.10.5</ip-address>
+            <port-number>1285</port-number>
+            <start-number>0</start-number>
+            <end-number>0</end-number>
+        </connection-info>
+        <connection-info id="6">
+            <ip-address>192.168.10.5</ip-address>
+            <port-number>1281</port-number>
+            <start-number>0</start-number>
+            <end-number>0</end-number>
+        </connection-info>
+        <connection-info id="7">
+            <ip-address>192.168.10.5</ip-address>
+            <port-number>1282</port-number>
+            <start-number>0</start-number>
+            <end-number>0</end-number>
+        </connection-info>
+        <connection-info id="8">
+            <ip-address>192.168.10.5</ip-address>
+            <port-number>1283</port-number>
+            <start-number>0</start-number>
+            <end-number>0</end-number>
+        </connection-info>
+        <connection-info id="9">
+            <ip-address>192.168.10.5</ip-address>
+            <port-number>1284</port-number>
+            <start-number>0</start-number>
+            <end-number>0</end-number>
+        </connection-info>
+    </kcvs-veh>
+
+    <!-- kcvs-port -->
+    <kcvs-port>
+        <connection-info id="1">
+            <ip-address>192.168.10.5</ip-address>
+            <port-number>1286</port-number>
+            <start-number>1</start-number>
+            <end-number>12</end-number>
+        </connection-info>
+        <connection-info id="2">
+            <ip-address>192.168.10.5</ip-address>
+            <port-number>1287</port-number>
+            <start-number>13</start-number>
+            <end-number>22</end-number>
+        </connection-info>
+    </kcvs-port>
+
+    <!-- common -->
+    <common>
+        <connection-info id="1">
+            <ip-address>192.168.10.5</ip-address>
+            <port-number>1288</port-number>
+            <start-number>1</start-number>
+            <end-number>1</end-number>
+        </connection-info>
+    </common>
+
+    <!-- control-center -->
+    <control-center>
+        <connection-info id="1">
+            <ip-address>192.168.10.5</ip-address>
+            <port-number>1289</port-number>
+            <acquire-timeout>10</acquire-timeout>
+            <deposit-timeout>10</deposit-timeout>
+            <dest-retry-count>0</dest-retry-count>
+            <min-pcv>0</min-pcv>
+            <max-pcv>188500</max-pcv>
+        </connection-info>
+    </control-center>
+
+    <!-- kcvs-ups -->
+    <kcvs-ups>
+        <connection-info id="1">
+            <ip-address>127.0.0.1</ip-address>
+            <port-number>161</port-number>
+            <community_name>LiebertEM</community_name>
+            <time_limit>60000</time_limit>
+        </connection-info>
+    </kcvs-ups>
+</kcvs>

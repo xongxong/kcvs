@@ -1,0 +1,18 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/kcvs_yungu
+    username: root
+    password: '1234'
+    driver-class-name: com.mysql.jdbc.Driver
+  mvc:
+    view:
+      prefix: /
+      suffix: .jsp
+mybatis:
+  config-location: classpath:mybatis/sqlMapConfig.xml
+  mapper-locations: classpath:mapper/*Mapper.xml
+logging:
+  config: classpath:log4j2.xml
+  file: C:\Users\HJ18031701\Desktop\log
